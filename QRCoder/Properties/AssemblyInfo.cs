@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("QRCoder")]
-[assembly: AssemblyDescription("A free-to-use QR code library")]
+[assembly: AssemblyTitle("QRCoderVBA")]
+[assembly: AssemblyDescription("QR code library for VBA")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("www.code-bude.net")]
-[assembly: AssemblyProduct("QRCoder")]
+[assembly: AssemblyProduct("QRCoder for VBA")]
 [assembly: AssemblyCopyright("Free to use (MIT license)")]
-[assembly: AssemblyTrademark("written by Raffael Herrmann")]
+[assembly: AssemblyTrademark("written by Raffael Herrmann, forked by Pierre-Louis Deschamps")]
 [assembly: AssemblyCulture("")]
 
 // Durch Festlegen von ComVisible auf "false" werden die Typen in dieser Assembly unsichtbar 
