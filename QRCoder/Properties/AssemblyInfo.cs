@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
 [assembly: AssemblyTitle("QRCoderForVBA")]
-[assembly: AssemblyDescription("QR code library for VBA2")]
+[assembly: AssemblyDescription("QR code library for VBA")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("www.code-bude.net")]
 [assembly: AssemblyProduct("QRCoder for VBA")]

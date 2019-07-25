@@ -10,15 +10,8 @@ namespace QRCoder
     [ClassInterface(ClassInterfaceType.AutoDual)]
     public class QRCodeCOMInterface
     {
-        private string test;
-        public string Test
-        {
-            get { return test; }
-            set { test = value; }
-        }
         private static QRCodeGenerator qRCodeGenerator = new QRCodeGenerator();
-        QRCodeData qRCodeData = qRCodeGenerator.CreateQrCode("<", QRCodeGenerator.ECCLevel.M, false, false, QRCodeGenerator.EciMode.Default, 3);
-        public string Copyright { get; } = "Pierre-Louis Deschamps 2019";
+        private QRCodeData qRCodeData;
 
         public string PlainText
         {
